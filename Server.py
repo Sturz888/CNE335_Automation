@@ -1,3 +1,4 @@
+import os
 class Server:
     """ Server class for representing and manipulating servers. """
 
@@ -7,4 +8,6 @@ class Server:
 
     def ping(self):
         # TODO - Use os module to ping the server
-        return
+        response = os.system("ping " + self.server_ip)
+        return response
+
