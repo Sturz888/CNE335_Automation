@@ -3,7 +3,7 @@
 # based code templete furnished by Zachary Rubin zrubin@rtc.edu
 # With tutoring from TJ Dewey
 # With cooperation from Sarmad Kubba
-
+# referenced https://stackoverflow.com/questions/35099303/python-sshparamiko-fail-to-connect-to-remote-machine-without-password
 # CNA 340 Fall 2020
 from server import Server
 
@@ -20,3 +20,5 @@ if __name__ == '__main__':
     # TODO - Call Ping method and print the results
     Echo = EC2.ping()
     print(Echo)
+
+    EC2.updat()
